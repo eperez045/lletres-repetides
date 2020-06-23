@@ -7,6 +7,6 @@ for (i = 0; i < nombre.length; i++) {
     } else if (nombre[i].search(/[aeiou]/i) === 0) {
         console.log('He encontrado la VOCAL: ' + nombre[i]);
     } else {
-        console.log('He encontrado la CONSONTANT: ' + nombre[i]);
+        console.log('He encontrado la CONSONANTE: ' + nombre[i]);
     }
 }
